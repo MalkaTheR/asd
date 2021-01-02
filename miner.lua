@@ -25,7 +25,7 @@ local args, options = shell.parse(...)
 
 -- Every how many blocks to dig a side shaft. The default makes for a
 -- two wide wall between tunnels, making sure we don't miss anything.
-local shaftInterval = 0
+local shaftInterval = 1
 
 -- Max recursion level for mining ore veins. We abort early because we
 -- assume we'll encounter the same vein again from an adjacent tunnel.
